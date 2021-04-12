@@ -1,9 +1,11 @@
 import React from 'react';
+//import pages
+import AboutSection from './pages/about';
 
 function App() {
   return (
     <div>
-      <h1>wazaa</h1>
+      <AboutSection/>
     </div>
   );
 }
