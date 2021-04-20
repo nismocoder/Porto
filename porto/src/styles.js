@@ -33,3 +33,14 @@ export const Image = styled.div`
 export const Hide = styled.div`
   overflow: hidden;
 `;
+
+export const Image2 = styled.div`
+  display: flex;
+  img {
+    width: 90%;
+    height: 30vh;
+    object-fit: cover;
+    flex-direction: row;
+    justify-content: center;
+  }
+`;

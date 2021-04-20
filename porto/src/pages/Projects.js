@@ -1,10 +1,10 @@
 import React from "react";
-import FaqSection from "../components/FaqSection";
+import ProjectSection from "../components/ProjectSection";
 
 const Projects = () => {
   return (
     <>
-      <FaqSection />
+      <ProjectSection />
     </>
   );
 };
