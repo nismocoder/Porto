@@ -37,10 +37,12 @@ export const Hide = styled.div`
 export const Image2 = styled.div`
   display: flex;
   img {
-    width: 90%;
+    width: 100%;
     height: 30vh;
-    object-fit: cover;
+    object-fit: contain;
     flex-direction: row;
     justify-content: center;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
   }
 `;

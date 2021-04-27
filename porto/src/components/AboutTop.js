@@ -7,7 +7,7 @@ const AboutTop = () => {
     <div className="GreetWrapper">
       <Home>
         <Etc>
-          <h1>Come with me..</h1>
+          <h1>Come FLY with me..</h1>
           <img src={plane} alt="blank" />
         </Etc>
       </Home>
