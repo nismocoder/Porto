@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import blank from "../img/blank.jpg";
-import { About1 } from "../styles";
 
 const HomeSection = () => {
   return (
