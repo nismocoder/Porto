@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import blank from "../img/blank.jpg";
-import { About1 } from "../styles";
 
 const HomeSection = () => {
   return (
@@ -31,6 +30,7 @@ const Home = styled.div`
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: 2rem;
   }
 `;
 

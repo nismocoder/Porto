@@ -1,17 +1,14 @@
-import {createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: #1b1b1b;
 }
-
 button {
     font-weight: bold;
     font-size: 1.1rem;
@@ -26,7 +23,6 @@ button {
         color: white;
     }
 }
-
 h2 {
         font-weight: lighter;
         font-size: 4rem;
@@ -51,9 +47,6 @@ h2 {
         font-size: 1.4rem;
         line-height: 150%;
     }
+`;
 
-`
-
-
-
- export default GlobalStyle;
+export default GlobalStyle;
