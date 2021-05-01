@@ -8,6 +8,9 @@ export const About1 = styled.div`
   padding: 5rem 10rem;
   color: grey;
   flex-direction: row;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 
 export const Description = styled.div`

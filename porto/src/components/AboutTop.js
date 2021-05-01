@@ -7,7 +7,7 @@ const AboutTop = () => {
     <div className="GreetWrapper">
       <Home>
         <Etc>
-          <h1>Come FLY with me..</h1>
+          <h1>Lets go places together..</h1>
           <img src={plane} alt="blank" />
         </Etc>
       </Home>
@@ -30,6 +30,9 @@ const Home = styled.div`
     left: 30%;
     transform: translate(-50%, -50%);
     color: rgb(82, 80, 80);
+    @media (max-width: 1000px) {
+      left: 50%;
+    }
   }
 `;
 

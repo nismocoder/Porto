@@ -6,6 +6,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    @media (max-width: 1400px) {
+        font-size: 75%;
+    }
+}
+
 body {
     background: #1b1b1b;
 }
