@@ -27,10 +27,12 @@ const Home = styled.div`
   h1 {
     position: absolute;
     top: 55%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
   }
 `;
 
