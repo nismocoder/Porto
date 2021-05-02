@@ -58,6 +58,7 @@ const ContactWrapper = styled.div`
 
 const Tcontainer = styled.div`
   flex-basis: 15rem;
+  top: 15%;
   width: 100vw;
   height: 40vh;
   position: absolute;
@@ -65,29 +66,66 @@ const Tcontainer = styled.div`
   align-items: center;
   font-family: "Jost", sans-serif;
   justify-content: center;
+  @media (max-width: 1000px) {
+    top:10%
+    height: 60vh;
+    flex-basis: 15rem;
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    justify-content: center;
+  }
 
   h1 {
     font-size: 30px;
     position: absolute;
-    bottom: 20%;
+    top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    @media (max-width: 1000px) {
+      font-size: 30px;
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+    }
   }
   .faq-line {
     background: #cccccc;
     height: 0.2rem;
     margin: 2rem 0rem;
     width: 100%;
+    @media (max-width: 1000px) {
+      background: #cccccc;
+      height: 0.2rem;
+      margin: 1rem 0rem;
+      width: 100%;
+    }
   }
   h2 {
     position: absolute;
-    bottom: 0%;
+    bottom: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 26px;
     text-align: center;
+    @media (max-width: 1000px) {
+      position: absolute;
+      height: 20vh;
+      bottom: 2%;
+      left: 50%;
+      color: white;
+      font-size: 26px;
+      text-align: center;
+      line-height: 30px;
+    }
   }
 `;
 
@@ -103,6 +141,9 @@ const Bcontainer = styled.div`
   transition: 0.7 ease-in-out;
   bottom: 0;
   justify-content: center;
+  @media (max-width: 1000px) {
+    height: 40vh;
+  }
 
   button {
     position: absolute;
@@ -118,22 +159,30 @@ const Bcontainer = styled.div`
   h3 {
     font-size: 26px;
     position: absolute;
-    top: 36%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: "Jost", sans-serif;
     font-weight: lighter;
+    @media (max-width: 1000px) {
+      top: 36%;
+    }
   }
   h4 {
     position: absolute;
-    top: 46%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 26px;
     font-family: "Jost", sans-serif;
     font-weight: lighter;
+    text-align: center;
+    @media (max-width: 1000px) {
+      top: 57%;
+      line-height: 30px;
+    }
   }
   /* a {
     transition: 0.5 ease-in-out;
@@ -152,7 +201,7 @@ const Bcontainer = styled.div`
   } */
   .email {
     position: absolute;
-    top: 56%;
+    top: 80%;
     transform: translate(-50%, -50%);
     color: white;
     font-family: "Jost", sans-serif;

@@ -10,6 +10,7 @@ export const About1 = styled.div`
   flex-direction: row;
   @media (max-width: 1000px) {
     flex-direction: column;
+    padding: 1rem 3rem;
   }
 `;
 
@@ -19,6 +20,9 @@ export const Description = styled.div`
   flex-direction: row;
   h2 {
     font-weight: lighter;
+  }
+  @media (max-width: 1000px) {
+    padding-right: 1rem;
   }
 `;
 export const Image = styled.div`
@@ -30,6 +34,11 @@ export const Image = styled.div`
     height: 80vh;
     object-fit: cover;
     flex-direction: row;
+    @media (max-width: 1000px) {
+      width: 100%;
+      height: 60vh;
+      object-fit: cover;
+    }
   }
 `;
 

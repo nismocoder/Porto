@@ -40,27 +40,29 @@ const ProjectSection = () => {
 
 const Home = styled.div`
   min-height: 90vh;
+  max-height: 200vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: auto;
   justify-content: center;
   position: relative;
 
   h1 {
     position: absolute;
     top: 18%;
-    left: 50%;
+    left: 50vw;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 28px;
   }
   h2 {
     position: absolute;
-    top: 23%;
-    left: 50%;
+    top: 30%;
+    left: 50vw;
     transform: translate(-50%, -50%);
     color: white;
     text-decoration: underline;
     font-size: 40px;
+    text-align: center;
   }
   ul {
     display: flex;
@@ -68,6 +70,12 @@ const Home = styled.div`
     top: 35%;
     width: 100vw;
     justify-content: center;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+      height: 200vh;
+      top: 5%;
+      overflow: auto;
+    }
   }
 
   p {
