@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 html{
     @media (max-width: 1000px) {
         font-size: 75%;
-    }
+    } 
 }
 
 body {
