@@ -13,23 +13,29 @@ const ProjectSection = () => {
       <PhotoContainer>
         <ul>
           <li>
-            <Image2>
-              <img src={seaFood} alt="seaFood" />
-            </Image2>
+            <a href="https://google.com" target="_blank">
+              <Image2>
+                <img src={seaFood} alt="seaFood" />
+              </Image2>
+            </a>
             <p>Sea Food</p>
           </li>
 
           <li>
-            <Image2>
-              <img src={Itouge} alt="Itouge" />
-            </Image2>
+            <a href="https://google.com" target="_blank">
+              <Image2>
+                <img src={Itouge} alt="Itouge" />
+              </Image2>
+            </a>
             <p>Imperial Touge</p>
           </li>
 
           <li>
-            <Image2>
-              <img src={ngrid} alt="ngrid" />
-            </Image2>
+            <a href="https://google.com" target="_blank">
+              <Image2>
+                <img src={ngrid} alt="ngrid" />
+              </Image2>
+            </a>
             <p>Print Shop</p>
           </li>
         </ul>

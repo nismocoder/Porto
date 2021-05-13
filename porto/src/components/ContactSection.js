@@ -19,9 +19,12 @@ const contactSection = () => {
           </h2>
         </Tcontainer>
         <Bcontainer>
-          <button class="resume" href="#">
-            Resume
-          </button>
+          <a
+            href="https://docs.google.com/document/d/1OLxf8IWNlXI2NIoq1kKWXYuUjvkvpPIrWOF_e6xKIX4/edit?usp=sharing"
+            target="_blank"
+          >
+            <button class="resume">Resume</button>
+          </a>
           <h3>Andrae Torres</h3>
           <h4>Based in Orlando, FL</h4>
           <a class="email" href="mailto:boostedrb240sx@gmail.com">

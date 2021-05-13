@@ -12,20 +12,23 @@ import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <GlobalStyle />
       <Nav />
       <Switch>
-        <Route path="/About" exact>
+        <Route path="/about">
           <About />
         </Route>
-        <Route path="/Home">
+        <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/Projects">
+        <Route path="/home/" exact>
+          <Home />
+        </Route>
+        <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/Contact">
+        <Route path="/contact">
           <Contact />
         </Route>
       </Switch>
