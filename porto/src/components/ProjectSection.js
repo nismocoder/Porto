@@ -13,7 +13,7 @@ const ProjectSection = () => {
       <PhotoContainer>
         <ul>
           <li>
-            <a href="https://google.com" target="_blank">
+            <a href="https://nismocoder.github.io/seafoodmain/" target="_blank">
               <Image2>
                 <img src={seaFood} alt="seaFood" />
               </Image2>
@@ -22,7 +22,10 @@ const ProjectSection = () => {
           </li>
 
           <li>
-            <a href="https://google.com" target="_blank">
+            <a
+              href="https://nismocoder.github.io/ImperialTouge50/"
+              target="_blank"
+            >
               <Image2>
                 <img src={Itouge} alt="Itouge" />
               </Image2>
