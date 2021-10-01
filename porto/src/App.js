@@ -1,5 +1,5 @@
 import React from "react";
-//Global style
+//Global styles
 import GlobalStyle from "./components/GlobalStyle";
 //import pages
 import About from "./pages/About";
