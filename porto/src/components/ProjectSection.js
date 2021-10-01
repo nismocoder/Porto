@@ -78,7 +78,7 @@ const Home = styled.div`
     position: absolute;
     top: 35%;
     width: 100vw;
-    justify-content: center;
+    justify-content: space-evenly;
     @media (max-width: 1000px) {
       flex-direction: column;
       height: 200vh;
