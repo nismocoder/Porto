@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import seaFood from "../img/seaFood.png";
 import Itouge from "../img/Itouge.png";
-import ngrid from "../img/ngrid.png";
+import GameThumbnail from "../img/GameThumbnail.png";
 import { Image2 } from "../styles";
 
 const ProjectSection = () => {
@@ -34,12 +34,12 @@ const ProjectSection = () => {
           </li>
 
           <li>
-            <a href="https://google.com" target="_blank">
+            <a href="https://game-antena.com" target="_blank">
               <Image2>
-                <img src={ngrid} alt="ngrid" />
+                <img src={GameThumbnail} alt="ngrid" />
               </Image2>
             </a>
-            <p>Print Shop</p>
+            <p>Game-Antena</p>
           </li>
         </ul>
       </PhotoContainer>

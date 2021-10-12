@@ -4,14 +4,14 @@ import plane from "../img/plane.jpg";
 
 const AboutTop = () => {
   return (
-    <div className="GreetWrapper">
+    <GreetWrapper>
       <Home>
         <Etc>
           <h1>Lets go places together..</h1>
           <img src={plane} alt="blank" />
         </Etc>
       </Home>
-    </div>
+    </GreetWrapper>
   );
 };
 
