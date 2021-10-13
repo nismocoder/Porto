@@ -4,14 +4,14 @@ import blank from "../img/blank.jpg";
 
 const HomeSection = () => {
   return (
-    <div className="GreetWrapper">
+    <GreetWrapper>
       <Home>
         <Etc>
           <h1>Hi, I'm Andrae a front-end web developer.</h1>
           <img src={blank} alt="blank" />
         </Etc>
       </Home>
-    </div>
+    </GreetWrapper>
   );
 };
 
@@ -29,7 +29,7 @@ const Home = styled.div`
     top: 55%;
     left: 35%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
     line-height: 30px;
     text-align: center;

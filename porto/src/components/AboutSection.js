@@ -1,7 +1,6 @@
 import React from "react";
 import laptop from "../img/laptop.jpg";
 //styled
-import styled from "styled-components";
 import { About1, Description, Hide, Image } from "../styles";
 
 const AboutSection = () => {

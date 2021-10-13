@@ -57,21 +57,39 @@ const Home = styled.div`
 
   h1 {
     position: absolute;
-    top: 18%;
+    top: 14%;
     left: 50vw;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 28px;
+    @media (max-width: 1000px) {
+      position: absolute;
+      top: 8%;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 28px;
+    }
   }
   h2 {
     position: absolute;
-    top: 30%;
+    top: 26%;
     left: 50vw;
     transform: translate(-50%, -50%);
     color: white;
     text-decoration: underline;
     font-size: 40px;
     text-align: center;
+    @media (max-width: 1000px) {
+      position: absolute;
+      top: 20%;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-decoration: underline;
+      font-size: 40px;
+      text-align: center;
+    }
   }
   ul {
     display: flex;
@@ -84,6 +102,10 @@ const Home = styled.div`
       height: 200vh;
       top: 5%;
       overflow: auto;
+      padding-top: 1rem;
+      li:nth-child(1) {
+        padding-top: 3rem;
+      }
     }
   }
 
@@ -101,6 +123,8 @@ const Home = styled.div`
 const PhotoContainer = styled.div`
   width: 100vw;
   justify-content: center;
+  @media (max-width: 1000px) {
+  }
 `;
 
 export default ProjectSection;
